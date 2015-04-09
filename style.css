@@ -1,0 +1,38 @@
+
+tbody > tr > th {
+  font-style: italic;
+  font-weight: normal;
+}
+tbody > tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+td {
+  border: solid thin;
+  border-color: black;
+}
+
+td:nth-child(2) {
+  color: red;
+}
+
+td:nth-child(4) {
+  color: blue;
+}
+
+table {
+  border: solid thin;
+  border-collapse: collapse;
+}
+
+tbody {
+  border: solid thin;
+}
+
+tr {
+  border: solid thin
+}
