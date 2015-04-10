@@ -1,8 +1,14 @@
 
 tbody > tr > th {
+  border: solid thin;
   font-style: italic;
   font-weight: normal;
 }
+
+thead > tr > th {
+  border: solid thin;
+}
+
 tbody > tr:nth-child(odd) {
   background-color: lightgreen;
 }
@@ -16,23 +22,33 @@ td {
   border-color: black;
 }
 
-td:nth-child(2) {
+tbody > tr > td:nth-child(2) {
   color: red;
 }
 
-td:nth-child(4) {
+tbody > tr > td:nth-child(4) {
   color: blue;
 }
 
 table {
   border: solid thin;
-  border-collapse: collapse;
 }
 
-tbody {
-  border: solid thin;
+dl > dt:hover + dd {
+  background-color: purple;
 }
 
-tr {
-  border: solid thin
+.outer-content {
+  background-color: pink;
+  float: left;
+  margin-top: 20px;
+  width: 75%;
+}
+
+.inner-content {
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
 }
