@@ -52,3 +52,7 @@ dl > dt:hover + dd {
   width: 75%;
   text-align: center;
 }
+
+fieldset {
+  margin-top: 5px;
+}
