@@ -56,3 +56,9 @@ dl > dt:hover + dd {
 fieldset {
   margin-top: 5px;
 }
+
+img {
+  float: left;
+  height: 125px;
+  width: 100px;
+}
