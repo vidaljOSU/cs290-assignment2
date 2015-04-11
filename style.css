@@ -55,6 +55,7 @@ dl > dt:hover + dd {
 
 fieldset {
   margin-top: 5px;
+  clear: both;
 }
 
 img {
